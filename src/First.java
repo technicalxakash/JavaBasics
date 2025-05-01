@@ -124,12 +124,39 @@ public class First {
 		1)implicit type conversion
         2)Explicit Type conversion
         */
-		Scanner sc=new Scanner(System.in);
-		float a,b;
-		System.out.println("Enter the value od a and b : ");
-		a=sc.nextInt();
-		b=sc.nextInt();
-		System.out.println("The value of a and b when we do addition is : "+(int)(a+b));
+//		Scanner sc=new Scanner(System.in);
+//		float a,b;
+//		System.out.println("Enter the value od a and b : ");
+//		a=sc.nextInt();
+//		b=sc.nextInt();
+//		System.out.println("The value of a and b when we do addition is : "+(int)(a+b));
+		
+		//print largest of two
+		/*
+		Scanner sc=new Scanner (System.in);
+		System.out.print("enter the num1 : ");
+		int num1=sc.nextInt();
+		System.out.print("enter the num2 : ");
+		int num2=sc.nextInt();
+		if (num1 > num2) {
+			System.out.println("num1 is largets ");
+		}
+		else {
+			System.out.println("num2 is larger");
+		}
+		*/
+		//even or odd
+		
+		Scanner sc=new Scanner (System.in);
+		System.out.print("enter the num1 to check odd or even : ");
+		int num1=sc.nextInt();
+
+		if(num1 % 2==0) {
+			System.out.println("it is a even number "+num1);
+		}
+		else System.out.println("it is a odd number "+num1);
+		
 	}
+	sc.close();
 
 }
