@@ -19,7 +19,7 @@ public class LargestOFThreeNumbers {
 		 else {
 	            System.out.println("num3 is the greatest: " + num3);
 	        }
-sc.close();
+				sc.close();
 	
 	}
 }
