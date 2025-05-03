@@ -22,7 +22,7 @@ public class TernaryOperator {
 
 	
 }
-*/
+
 public class TernaryOperator {
 
 	public static void main(String[] args) {
@@ -43,3 +43,19 @@ public class TernaryOperator {
 
 	
 }
+*/
+//determine if a student passes or fails based on thier exam score
+
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the marks : ");
+		int marks =sc.nextInt();
+		
+		String Marrks="";
+		
+	Marrks=(marks>65)?"pass":"fail";
+	System.out.println(Marrks);
+	
+	}}
