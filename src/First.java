@@ -144,7 +144,7 @@ public class First {
 		else {
 			System.out.println("num2 is larger");
 		}
-		*/
+	
 		//even or odd
 		
 		Scanner sc=new Scanner (System.in);
@@ -155,8 +155,12 @@ public class First {
 			System.out.println("it is a even number "+num1);
 		}
 		else System.out.println("it is a odd number "+num1);
+		sc.close();	
+		
+			*/
+		
 		
 	}
-	sc.close();
 
+	
 }
