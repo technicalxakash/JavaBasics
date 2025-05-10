@@ -49,21 +49,34 @@
 
 //callByValue=doesn,t affect original value = meaning thebvalues of the arugements are passed to the parametrs
 //callByReference =affect original value 
-public class FunctionsAndMethods {
-			
-		static void multiply(int a ,int b) {
-			a=10;
-			b=2000;
-		}
-		
-		public static void main(String[] args) {
-			
 
-				int a=20;
-				int b=30;
-				multiply(a, b);
-				System.out.println(a*b);
-		}
+
+//callByValue
+//public class FunctionsAndMethods {
+//			
+//		static void multiply(int a ,int b) {
+//			a=10;
+//			b=2000;
+//		}
+//		
+//		public static void main(String[] args) {
+//			
+//
+//				int a=20;
+//				int b=30;
+//				multiply(a, b);
+//				System.out.println(a*b);
+//		}
+//		
+//		}
+
+class FunctionsAndMethods{
+	
+	public static void main(String[] args) {
 		
-		}
+		
+		
+		
+	}
+}
 		
