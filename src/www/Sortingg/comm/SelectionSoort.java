@@ -6,8 +6,7 @@ public class SelectionSoort {
 
 	static void selection(int[] a) {
    for(int i=0;i<a.length-1;i++) {
-			
-			int min_i=i;
+	int min_i=i;
 			for(int j=i+1;j<a.length;j++) {
 				if(a[j]<a[min_i]) {
 					min_i=j;
