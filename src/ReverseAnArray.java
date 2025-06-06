@@ -18,6 +18,6 @@ static void reverse(int[] arr) {
 		high--;
 		
 	}
-	System.out.println(Arrays.toString(arr));
+System.out.println(Arrays.toString(arr));
 }
 }
